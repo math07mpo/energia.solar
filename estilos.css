@@ -1,6 +1,10 @@
+@import url("./estilos/header.css");
+
+
 :root{
     --plano-de-fundo:#EBECEE;
-
+    --cor-cabecalho:#ffffff;
+    --titulo-cabecalho:#EB9B00;
 }
 
 
