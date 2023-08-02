@@ -2,9 +2,10 @@
 
 
 :root{
-    --plano-de-fundo:#EBECEE;
+    --plano-de-fundo:#e5e2e2;
     --cor-cabecalho:#ffffff;
     --titulo-cabecalho:#EB9B00;
+    --azul-degrade: linear-gradient(97.54deg, #002f52 35.49%, #326589 165.37);
 }
 
 
