@@ -1,0 +1,15 @@
+@import url("./estilos/hearder.css");
+@import url("./estilos/banner.css");
+
+
+
+:root{
+    --plano-de-fundo:#ffffff;
+    --cor-cabecalho: #ffffff;
+    --titulo-cabecalho: #EB9B00;
+    --azul-degrade: linear-gradient(97.54deg, #002f52 35.49%, #326589 165.37);
+}
+
+body{
+    background-color: var(--plano-de-fundo);
+}
