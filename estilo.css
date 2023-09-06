@@ -1,5 +1,6 @@
 @import url("./estilos/hearder.css");
 @import url("./estilos/banner.css");
+@import url("./estilos/carrosel.css");
 
 
 
@@ -7,7 +8,10 @@
     --plano-de-fundo:#ffffff;
     --cor-cabecalho: #ffffff;
     --titulo-cabecalho: #EB9B00;
-    --azul-degrade: linear-gradient(97.54deg, #002f52 35.49%, #326589 165.37);
+    --azul-degrade: linear-gradient(#bd0fd9,#326589 160%);
+    --cor-texto: rgb(0, 0, 0);
+    --texto-secundario:#BD0FD9;
+    --cor-texto:#ffffff;
 }
 
 body{

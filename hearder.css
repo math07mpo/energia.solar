@@ -5,24 +5,19 @@
     height: 24px;
     background-repeat: no-repeat;
     background-position: center;
-    
 
 
 }
 
 
-.cabecalho {
+.cabelho {
     background-color: var(--cor-cabecalho);
     display: flex;
+    justify-content: space-between;
     justify-content: space-between;
     align-items: center;
     position: relative;
 
-}
-
-.container{
-    display: flex;
-    align-items: center;
 }
 
 .container--imagem{
@@ -30,29 +25,6 @@
 
 }
 .lista-menu{
-    display: none;
     position: absolute;
     top: 100%;
-    width: 60vw;
-    z-index: 5;
-}
-
-.container--botao:checked~.lista-menu{
-    display: block;
-}
-
-.lista-menu__titulo, .lista-menu__item{
-    padding: 1em;
-    background-color: #228212;
-}
-
-.lista-menu__titulo{
-    color: #c0d72d;
-    font-weight: 700;
-}
-.lista-menu__link{
-    color: #000000;
-}
-.container--botao{
-    display: none;
 }
