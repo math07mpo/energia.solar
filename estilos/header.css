@@ -1,4 +1,4 @@
-.cabecalho_menu-hamburger{
+.cabecalho__menu-hamburger{
   background-image: url("../img/Menu.svg");
   display: inline-block;
   width: 24px;
@@ -22,7 +22,7 @@ position: relative;
     
 }
 
-.container--image{
+.container--imagem{
     padding: 1em;
 }
 
@@ -61,3 +61,30 @@ position: relative;
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
+
+
+.container--titulo{
+    display: none;
+   
+   }
+   .opcoes{
+       display: none;
+   
+   }
+   
+   
+   @media screen and (min-width:1024px) {
+       .container--titulo{
+       display: block;
+       font-weight: 700;
+       font-size: 30px;
+       color: var(--titulo-cabecalho);
+       }
+   .opcoes{
+         display: flex;
+   }
+   .opcoes--item{
+         padding: 0 1em;
+   
+   }
+   }
